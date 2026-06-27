@@ -6,6 +6,6 @@ print("I go to school at 8 AM.")
 # Step 3: playing after school
 print("I play with my friends in the evening.")
 # step 4: Studying
-print("I study for 2 hours at night.")
+print("I study for 2 hours at night.") 
 # calculating the total study time in a week
 print("Total study hours in a week:",2 * 7)
