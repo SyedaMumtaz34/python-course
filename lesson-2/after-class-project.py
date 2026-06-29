@@ -1,11 +1,20 @@
-print("My Daily Routine")
-# Step 1: Waking up
-print("I wake up at 7 Am.")
-# step 2: Going to school
-print("I go to school at 8 AM.")
-# Step 3: playing after school
-print("I play with my friends in the evening.")
-# step 4: Studying
-print("I study for 2 hours at night.") 
-# calculating the total study time in a week
-print("Total study hours in a week:",2 * 7)
+Name1="Raj"
+birthday1="12/03/2023"
+Name2="sara"
+birthday2="3/11/2005"
+Name3="zara"
+birthday3="4/11/2010"
+Name4="Ayesha"
+birthday4="22/4/2012"
+Name5="Dua"
+birthday5="13/12/2011"
+Name6="Afnan "
+birthday6="17/6/2014"
+print("Birthday Records")
+print("----------------")
+print(Name1,"-",birthday1)
+print(Name2,"-",birthday2)
+print(Name3,"-",birthday3)
+print(Name4,"-",birthday4)
+print(Name5,"-",birthday5)
+print(Name6,"-",birthday6)
