@@ -6,3 +6,4 @@ hindi=int(input("hindi "))
 sum=maths+eng+science+hindi
 percentage=(sum/400)*100
 print("percentage", percentage)
+
