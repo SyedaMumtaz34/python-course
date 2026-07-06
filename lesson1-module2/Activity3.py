@@ -5,12 +5,12 @@ print("select a ride 1.bike and 2.car")
 # - 2 for Car
 
 # 2) Take the user’s input and store it in `choice`.
-choice=int(input("select 1 for bike and 2 for car "))
+choice=int(input("Enter a number "))
 # 3) If `choice` is 1 (Bike):
 if choice == 1:
     print("1. scooty 2.scooter")
-    choice2=int(input("select 1.scooty 2.scooter"))
-    if choice == 1:
+    choice2=int(input("Enter a number "))
+    if choice2 == 1:
         print("your choice is scooty")
     else:
         print("your choice is scooter")
@@ -25,7 +25,7 @@ if choice == 1:
 # 4) Else if `choice` is 2 (Car):
 elif choice==2:
     print("1.sedan 2.XUV")
-    choice3=int(input("1.sedan 2.XUV "))
+    choice3=int(input("Enter a number "))
     if choice3==1:
      print("you have selected sedan")
     else: 
