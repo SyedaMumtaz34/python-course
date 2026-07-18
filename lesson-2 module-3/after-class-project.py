@@ -1,10 +1,10 @@
 def shutdown(user_input):
-    if user_input == "Yes":
+    if user_input == "yes":
         return "Shutting down"
-    elif user_input == "No":
+    elif user_input == "no":
         return "Abort shut down"
     else:
         return "Sorry"
-
-choice = input("Enter Yes or No: ")
+print("Do you want to shutdown your laptop?")
+choice = input("Enter Yes or No: ").lower()
 print(shutdown(choice))
