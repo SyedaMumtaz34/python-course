@@ -1,9 +1,9 @@
 def DueAmount():
-    bill = 2.50
-    paid = 4.00
+    bill =float(input("enter a bill amount "))
+    paid =float(input("enter a paid amount "))
     due = paid - bill
     return due
-
-print(DueAmount())
+Amount=DueAmount()
+print("The amount shopkeeper return is ",Amount)
 
     
