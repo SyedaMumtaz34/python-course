@@ -14,10 +14,10 @@ def display_students():
 
 def top_scorer():
     highest=max(students.values)
-    for name,marks
-students.items()
-if marks == highest
-    print("top_scorer=",name)
+    for name,marks:
+        students.items()
+        if marks == highest:
+            print("top_scorer=",name)
 def bottom_scorer():
     lowest=min(students.values)
     for name,marks 
