@@ -1,12 +1,12 @@
 # PART 1: Create two snack boxes as sets
-snack_box1 = {"chips", "juice", "cookies", "chips", "apple"}
-snack_box2 = {"cookies", "sandwich", "juice", "sandwich"}
+snack_box1 = {"chips", "juice", "cake", "chips", "mango"}
+snack_box2 = {"cake", "sandwich", "juice", "sandwich"}
 print("Snack Box 1:", snack_box1)
 print("Snack Box 2:", snack_box2)
 
 # PART 2: Add a new snack to snack_box1
-snack_box1.add("banana")
-print("Snack Box 1 after adding banana:", snack_box1)
+snack_box1.add("strawberry")
+print("Snack Box 1 after adding strawberry:", snack_box1)
 
 # PART 3: Find snacks common to both boxes
 common_snacks = snack_box1.intersection(snack_box2)
@@ -37,4 +37,4 @@ print("Snack Box 1:", snack_box1)
 print("Snack Box 2:", snack_box2)
 print("Shared snacks:", common_snacks)
 print("Snack counts:", snack_counts)
-print("================================")
+print("=========================")
