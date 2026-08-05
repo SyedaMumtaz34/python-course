@@ -1,7 +1,5 @@
 from abc import ABC, abstractmethod
 class SmartDevice(ABC):
- 
-    # Common method
     def show_device(self, name):
         print("Device Name:", name)
     @abstractmethod
